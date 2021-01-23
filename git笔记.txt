@@ -1,18 +1,23 @@
-﻿mkdir 文件名  //创建文件
-cd  切换目录
-pws 显示文件
-git init    //初始化仓库  步骤 先到想要当前目录之下然后在用git init进行初始化
-ls -ah		//查看详细的文件，dir 也可以
-
-///上传到git仓库两步骤
-git add 文件名  //可以多次使用
-git commit -m  "说明文档"  
-
-git status //查看工作区的状态
-git diff	//查看已修改未提交的内容
+﻿ mkdir 文件名  //创建文件
+ cd  切换目录
+ pws 显示文件
+ git init    //初始化仓库  步骤 先到想要当前目录之下然后在用git init进行初始化
+ ls -ah		//查看详细的文件，dir 也可以
+ 
+ ///上传到git仓库两步骤
+ git add 文件名  //可以多次使用
+ git commit -m  "说明文档"  
+ 
+ git status //查看工作区的状态
+ git diff	//表示比较文件    当暂存区有文件时比较的时,比较的时工作区与暂存区的文件的差别，
+							  当暂存区没文件时比较的时版本库中的与工作区的差别
+ git diff HEDA -- 文件名	//表示比较文件    比较的是工作区与版本库中的差别
+ 
  
  git log	//查看文件的历史记录
  git log  文件名 	/查看指定文件的历史记录
  git log --pretty=oneline	//简单输出提交版本信息
  git reset --hard HEAD^		//表示回退到前一个版本 一个^表示回退一个版本，一百个^表示回退到前一百个版本
  git reset --hard commit_ID	//表示回退到具体的版本  commit_ID表示版本号
+ git reflog //查看历史记录
+ 
