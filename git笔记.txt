@@ -10,3 +10,7 @@ git commit -m  "说明文档"
 
 git status //查看工作区的状态
 git diff	//查看已修改未提交的内容
+ 
+ git log	//查看文件的历史记录
+ git log  文件名 	/查看指定文件的历史记录
+ 
