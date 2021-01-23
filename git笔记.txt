@@ -21,3 +21,4 @@
  git reset --hard commit_ID	//表示回退到具体的版本  commit_ID表示版本号
  git reflog //查看历史记录
  
+ 
