@@ -13,4 +13,6 @@ git diff	//查看已修改未提交的内容
  
  git log	//查看文件的历史记录
  git log  文件名 	/查看指定文件的历史记录
- 
+ git log --pretty=oneline	//简单输出提交版本信息
+ git reset --hard HEAD^		//表示回退到前一个版本 一个^表示回退一个版本，一百个^表示回退到前一百个版本
+ git reset --hard commit_ID	//表示回退到具体的版本  commit_ID表示版本号
