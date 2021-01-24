@@ -59,6 +59,13 @@
  
  git merge --no-ff -m "描述信息"  分支名称   	//禁止快速合并模式且加上提交信息
  
+ git stash  	//把当前工作现场“储藏”起来    可以多次使用
+ git stash list //查看隐藏起来的工作区
+ 
+ //恢复工作区 
+ 第一种：git stash apply stash@{0}	//stash中的内容并不删除 用git stash drop stash@{0}删除
+ 
+ 第二种：git stash pop stash@{0} //同时删除stash中的内容
  
  
  
