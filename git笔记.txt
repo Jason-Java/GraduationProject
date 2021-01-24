@@ -55,6 +55,9 @@
  git merge 分支名称		//将分支与master分支合并
  git branch -d  分支名称 	//删除分支
  
+ git log --graph --pretty=oneline --abbrev-commit //查看提交信息
+ 
+ git merge --no-ff -m "描述信息"  分支名称   	//禁止快速合并模式且加上提交信息
  
  
  
