@@ -69,5 +69,8 @@
  
  
  
+ git cherry-pick 提交编号
+ 
+ 
  
  
