@@ -32,8 +32,30 @@
  2.如果没有则用 shh-keygan  -t rsa -C “电子邮件”  然后一路回车
  3.然后在github里面添加ssh key，然后把id_rsa.puh文件里的内容添加到key里
  4.然后在github里面创建一个和本地仓库一样的库
- 5.然后用 git remote add origin git@github.com:GitHub账户名/仓库名.git
+ 5.然后用 git remote add origin git@github.com:GitHub账户名/仓库名.git   //关联远程库
  6.然后利用 git push -u origin master //第一次加上-u 以后都不需要
+ 
+ 
+ //克隆版本
+
+ git clone git@github.com:GitHub账户名/仓库名.git
+ 
+ 
+ //创建新的分支
+ 
+ git checkout -b 分支名称		//创建新分支并且切换到所创建的分支
+ git switch  -c   分支名称		//创建新分支并且切换到所创建的分支
+ 
+ git branch  分支名称			//创建新分支
+ git checkout 分支名称			//切换到此分支
+ git switch  分支名称 			//切换到此分支
+ 
+ git branch			//查看分支情况
+ 
+ git merge 分支名称		//将分支与master分支合并
+ git branch -d  分支名称 	//删除分支
+ 
+ 
  
  
  
