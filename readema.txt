@@ -9,3 +9,4 @@ Creating a new branch qiuk AND simple
 Creating a new branch qiuk AND simple
 
 >>>>>>> featurel
+switch to a new branch "dev"
