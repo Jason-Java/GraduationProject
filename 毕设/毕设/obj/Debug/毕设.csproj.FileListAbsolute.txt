@@ -10,3 +10,16 @@ C:\Users\fjz19\Desktop\毕设\毕设\obj\Debug\毕设.csproj.CoreCompileInputs.c
 C:\Users\fjz19\Desktop\毕设\毕设\obj\Debug\毕设.csproj.CopyComplete
 C:\Users\fjz19\Desktop\毕设\毕设\obj\Debug\毕设.exe
 C:\Users\fjz19\Desktop\毕设\毕设\obj\Debug\毕设.pdb
+E:\GraduationProject\毕设\毕设\bin\Debug\毕设.exe
+E:\GraduationProject\毕设\毕设\bin\Debug\毕设.pdb
+E:\GraduationProject\毕设\毕设\bin\Debug\CSkin.dll
+E:\GraduationProject\毕设\毕设\bin\Debug\CSkin.xml
+E:\GraduationProject\毕设\毕设\obj\Debug\毕设.Login.resources
+E:\GraduationProject\毕设\毕设\obj\Debug\毕设.Master.resources
+E:\GraduationProject\毕设\毕设\obj\Debug\毕设.Properties.Resources.resources
+E:\GraduationProject\毕设\毕设\obj\Debug\毕设.csproj.GenerateResource.cache
+E:\GraduationProject\毕设\毕设\obj\Debug\毕设.csproj.CoreCompileInputs.cache
+E:\GraduationProject\毕设\毕设\obj\Debug\毕设.csproj.CopyComplete
+E:\GraduationProject\毕设\毕设\obj\Debug\毕设.exe
+E:\GraduationProject\毕设\毕设\obj\Debug\毕设.pdb
+E:\GraduationProject\毕设\毕设\obj\Debug\毕设.csprojAssemblyReference.cache
