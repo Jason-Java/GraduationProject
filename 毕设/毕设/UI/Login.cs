@@ -112,6 +112,7 @@ namespace 毕设
 		}
 		#endregion
 
+		#region  登录
 		private void LoginBut_Click(object sender, EventArgs e)
 		{
 			#region   记住登录账号
@@ -130,14 +131,23 @@ namespace 毕设
 				
 			}
 			#endregion
+			
+			this.Hide();
+			Home home = new Home();
+			home.Show();
 		}
+		#endregion
 
-
+		#region 登录按钮获取到焦点，账号列表隐藏
 		private void LoginBut_MouseEnter(object sender, EventArgs e)
 		{
 			DownMenuBut.BackgroundImage = Image.FromFile(@"Image\login_inputbtn_normal.png");
 			AcountmenuList.Visible = false; //账号列表
+			
+			
+			
 		}
+		#endregion
 
 		private void LoginAcountText_MouseUp(object sender, MouseEventArgs e)
 		{
